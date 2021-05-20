@@ -4,7 +4,7 @@ import Tpartscar from './Tpartscar/Tpartscar.com';
 import Vpartscar from './Vpartscar/Vpartscar.comp';
 
 
-const partscar = (props) => {
+const Partscar = (props) => {
     
  return (
              <table className="partscar-container">
@@ -33,4 +33,4 @@ const partscar = (props) => {
          );
 
 }
-export default partscar;
+export default Partscar;

@@ -1,20 +1,20 @@
 import React from 'react';
 import './filterable-productor.style.css';
-import partscar from './partscar/partscar.com';
-import formVpartscar from './forms/formVpartscar.comp';
-import formproductor from './forms/formproductor.comp';
+import Partscar from './partscar/partscar.com';
+import FormVpartscar from './forms/formVpartscar.comp';
+import Formproductor from './forms/formproductor.comp';
 
-const filterableproductor = (props) => {
+const Filterableproductor = (props) => {
   
     return (
         
         <div className="filterable-productor-container">
   
-            <partscar videogameList={props.videogameList}/>
-            <formVpartscar onAddVideogame={props.onAddVideogame}/>
-            <formproductor onAddVideogame={props.onAddVideogame}/>
+            <partscar VpartscarList={props.VpartscarList}/>
+            <formVpartscar onAddVpartscar={props.onAddVpartscar}/>
+            <formproductor onAddVpartscar={props.onAddVpartscar}/>
       </div>
      
     );
 }
-export default filterableproductor;
+export default Filterableproductor;

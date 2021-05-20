@@ -8,7 +8,7 @@ const ProductorPages = () => {
         id:"t1",
         name:'Intern Parts',
       
-        Vpartscar:[
+        vpartscar:[
             {              
                 id:"t1v1",
                 name:"Tires",
@@ -47,7 +47,7 @@ const ProductorPages = () => {
         id:"t2",
         name:'Breaks',
 
-        Vpartscar:[
+        vpartscar:[
             {
                 id:"t2v1",
                 name:"PistonBreak",
@@ -85,7 +85,7 @@ const ProductorPages = () => {
         id:"t3",
         name:'Luxury',
 
-        Vpartscar:[
+        vpartscar:[
             {
                 id:"t3v1",
                 name:"Radio",
@@ -139,7 +139,7 @@ return (
                       newVpartscar.push(
                           {
                               ...Vpartscar[i],
-                              Vpartscar:[...Vpartscar[i].Vpartscar, newVpartscarObj]
+                              Vpartscar:[...Vpartscar[i].vpartscar, newVpartscarObj]
                           }
                           );
                    }

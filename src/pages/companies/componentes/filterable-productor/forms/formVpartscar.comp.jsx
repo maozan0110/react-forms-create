@@ -1,24 +1,24 @@
 import React, { useState } from 'react';
 import './formVpartscar.style.css'
 
-const formVpartscar = (props) => {
+const FormVpartscar = (props) => {
   
-    const [Tpartscar, setTpartscar] = useState('');
+    const [tpartscar, settpartscar] = useState('');
     const [name, setName] = useState('');
     const [average, setAverage] = useState(0);
-    const addTpartscar = (event) => {
+    const addtpartscar = (event) => {
         event.preventDefault();
 
 
-        const newVpartscar = {
+        const newvpartscar = {
             id: name,
             name: name,
             average: Number(average),
            };
-           props.onAddVpartscar(newVpartscar,Tpartscar);
+           props.onAddVpartscar(newvpartscar,tpartscar);
        
      
-        console.log('Tpartscar ' + Tpartscar);
+        console.log('tpartscar ' + tpartscar);
         console.log('name ' + name);
         console.log('average ' + average);
     }
@@ -31,8 +31,8 @@ const formVpartscar = (props) => {
       
        <tr>
                <td>
-             Type Video-Game <select value={Tpartscar} onChange={(event)=>{
-                   setTpartscar(event.target.value);
+             Type Video-Game <select value={tpartscar} onChange={(event)=>{
+                   settpartscar(event.target.value);
                     }}
        >
               <option value="t1">News</option>
@@ -70,7 +70,7 @@ const formVpartscar = (props) => {
            <tr>
                 <td>
                      <button
-                     onClick={addTpartscar}
+                     onClick={addtpartscar}
                      >
                          Añadir
                      </button>
@@ -82,4 +82,4 @@ const formVpartscar = (props) => {
 );
     
 }
-export default formVpartscar;
+export default FormVpartscar;
