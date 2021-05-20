@@ -1,0 +1,21 @@
+.partscar-container {
+    width: 70%; 
+   min-height: 340px;
+  border: 2px solid rgb(170, 27, 151);
+   margin: 5px auto;
+   margin-left: 10px;
+   float:left;
+   background-image: url('motor.jpg');
+   border-width: 15px;
+      border-style:solid;
+
+      border-top-color:#556B2F;
+      border-right-color:#556B2F;
+      border-bottom-color:#556B2F;
+      border-left-color: #556B2F;
+}
+
+.lis1{
+    word-spacing: 140px;
+
+}

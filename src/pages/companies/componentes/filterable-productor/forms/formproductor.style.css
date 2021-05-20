@@ -1,0 +1,10 @@
+.form-productor-container{
+    border: 10px rgb(228, 7, 55) solid;
+    width: 7%;
+    min-height: 50px;
+    border-style: inset;
+    margin: 155px auto;
+   
+    text-align: center;
+   
+}

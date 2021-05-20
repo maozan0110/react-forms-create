@@ -1,0 +1,15 @@
+.form-Vpartscar-container{
+    
+    width: 27%;
+    min-height: 5px;
+    margin: 16px auto;
+    border-color: rgb(240, 7, 7);
+    border-style: inset;
+    border-width: 10px;
+    text-align: center;
+   
+}
+th{
+    font-weight: bold;
+    
+}
